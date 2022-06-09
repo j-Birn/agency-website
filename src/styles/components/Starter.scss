@@ -1,0 +1,31 @@
+.main-container {
+  button {
+    margin-top: 3rem;
+    background-image: linear-gradient(to right, #a744e9, #d31028);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5rem;
+    margin-left: 10rem;
+    .hero-container {
+      margin-top: 2rem;
+      h1 {
+        font-size: 5rem;
+      }
+    }
+    .hero-image {
+      img {
+        height: 29rem;
+      }
+    }
+  }
+}
