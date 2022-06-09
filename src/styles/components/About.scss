@@ -1,0 +1,29 @@
+.about-container {
+  margin: 8rem;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .image {
+      img {
+        height: 25rem;
+      }
+    }
+    .title-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      .title {
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: start;
+        color: #ea384d;
+      }
+      .subtitle {
+        font-size: 2rem;
+        margin-top: 2rem;
+        color: #a9afc3;
+      }
+    }
+  }
+}
