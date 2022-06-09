@@ -10,7 +10,7 @@ const Starter = () => {
           <button>Discover more</button>
         </div>
         <div className="hero-image">
-          <img src={hero} alt="hero" />
+          <img src={hero} alt="hero-image" />
         </div>
       </div>
     </section>
