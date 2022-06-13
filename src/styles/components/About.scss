@@ -1,3 +1,5 @@
+@import "../variables.scss";
+
 .about-container {
   margin: 8rem;
   .container {
@@ -17,12 +19,12 @@
         font-size: 3rem;
         font-weight: bolder;
         text-align: start;
-        color: #ea384d;
+        color: $primaryColor;
       }
       .subtitle {
         font-size: 2rem;
         margin-top: 2rem;
-        color: #a9afc3;
+        color: $secondaryColor;
       }
     }
   }

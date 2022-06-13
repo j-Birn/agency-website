@@ -1,7 +1,9 @@
+@import "../variables.scss";
+
 button {
   margin-top: 3rem;
-  background-image: linear-gradient(to right, #a744e9, #d31028);
-  color: white;
+  background-image: $primaryGradient;
+  color: whitesmoke;
   padding: 1rem;
   border-radius: 0.5rem;
   border: none;

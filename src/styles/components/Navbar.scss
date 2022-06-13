@@ -1,3 +1,5 @@
+@import "../variables.scss";
+
 nav {
   margin: 0 15rem;
   padding-top: 2rem;
@@ -12,7 +14,7 @@ nav {
       li {
         margin-left: 0.5rem;
         &:first-child {
-          border-bottom: 0.1rem solid #ea384d;
+          border-bottom: 0.1rem solid $primaryColor;
         }
         a {
           text-decoration: none;
@@ -26,7 +28,7 @@ nav {
         }
         transition: 0.3s ease-in-out;
         &:hover {
-          border-bottom: 0.1rem solid #ea384d;
+          border-bottom: 0.1rem solid $primaryColor;
         }
       }
     }
