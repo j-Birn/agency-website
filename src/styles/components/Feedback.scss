@@ -1,0 +1,63 @@
+@import "../variables.scss";
+
+.about-us-container {
+  .container {
+    margin: 8rem;
+    .title-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 4rem;
+      .title {
+        font-size: 3rem;
+        color: $primaryColor;
+      }
+      .subtitle {
+        font-size: 1.5rem;
+        width: 50%;
+        text-align: center;
+        color: $secondaryColor;
+      }
+    }
+    .cards {
+      display: flex;
+      margin: 0 4rem;
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        margin: 0 0.5rem;
+        height: 30rem;
+        padding: 0 2rem;
+        border-radius: 1rem;
+        .description {
+          margin-top: 2rem;
+          text-align: center;
+          font-size: 1.2rem;
+          color: $secondaryColor;
+        }
+        .photo {
+          height: 10rem;
+          width: 10rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 1rem 0;
+          img {
+            border-radius: 10rem;
+            height: 8rem;
+          }
+        }
+        .name {
+          font-size: 2rem;
+          color: $primaryColor;
+        }
+        .profile {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
