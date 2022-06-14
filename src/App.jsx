@@ -2,6 +2,7 @@ import About from "./components/About";
 import Feedback from "./components/Feedback";
 import Milestones from "./components/Milestones";
 import Navbar from "./components/Navbar";
+import Questions from "./components/Questions";
 import Starter from "./components/Starter";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Starter />
       <Milestones />
       <Feedback />
+      <Questions />
       <About />
     </>
   );
