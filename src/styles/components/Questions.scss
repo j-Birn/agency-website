@@ -1,0 +1,31 @@
+@import "../variables.scss";
+
+.questions-container {
+  margin: 6rem;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .image {
+      img {
+        height: 30rem;
+      }
+    }
+    .title-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      .title {
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: start;
+        color: $primaryColor;
+      }
+      .subtitle {
+        font-size: 2rem;
+        width: 90%;
+        color: $secondaryColor;
+      }
+    }
+  }
+}
