@@ -1,0 +1,27 @@
+@import "../variables.scss";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 7rem;
+  color: white;
+  background-color: black;
+  .icons {
+    display: flex;
+    gap: 1rem;
+    .i {
+      font-size: 1.4rem;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+  .copy {
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+  }
+}

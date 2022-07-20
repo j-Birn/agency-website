@@ -1,0 +1,23 @@
+@import "../variables.scss";
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 4rem;
+  background-image: $primaryGradient;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 2;
+  cursor: pointer;
+  .i {
+    height: 90%;
+    font-size: 1.8rem;
+  }
+}
+.hide {
+  display: none;
+}
