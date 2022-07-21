@@ -9,9 +9,7 @@ const Questions = () => {
           <div className="title">Have any questions ?</div>
           <div className="subtitle">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            voluptate voluptates eius quia dolor voluptatem nam. Accusantium
-            voluptatibus sequi neque officiis, eum dolore. Natus a laborum nisi
-            aliquid inventore harum.
+            voluptate voluptates eius quia dolor voluptatem nam.
           </div>
           <button>Contact us</button>
         </div>

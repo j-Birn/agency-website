@@ -3,7 +3,9 @@
 nav {
   margin: 0 15rem;
   padding-top: 2rem;
-
+  .toggle {
+    display: none;
+  }
   .links {
     display: flex;
     justify-content: center;

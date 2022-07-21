@@ -6,7 +6,7 @@ const Starter = () => {
     <section className="main-container" id="home">
       <div className="container">
         <div className="hero-container">
-          <h1>We'are freakin' awesome digital agensy</h1>
+          <h1>We'are freakin' awesome digital agency</h1>
           <button>Discover more</button>
         </div>
         <div className="hero-image">

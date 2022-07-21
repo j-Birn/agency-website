@@ -21,8 +21,7 @@ const Feedback = () => {
             <div className="description">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Assumenda praesentium doloribus quidem eaque quasi quas
-              accusantium, porro voluptatum! Eos, aperiam debitis. Placeat id
-              aperiam animi delectus ullam numquam aut cupiditate!
+              accusantium, porro voluptatum! Eos, aperiam debitis.
             </div>
             <div className="photo">
               <img src={avatar} alt="" />
@@ -34,8 +33,7 @@ const Feedback = () => {
             <div className="description">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Assumenda praesentium doloribus quidem eaque quasi quas
-              accusantium, porro voluptatum! Eos, aperiam debitis. Placeat id
-              aperiam animi delectus ullam numquam aut cupiditate!
+              accusantium, porro voluptatum! Eos, aperiam debitis.
             </div>
             <div className="photo">
               <img src={avatar2} alt="" />
@@ -47,8 +45,7 @@ const Feedback = () => {
             <div className="description">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Assumenda praesentium doloribus quidem eaque quasi quas
-              accusantium, porro voluptatum! Eos, aperiam debitis. Placeat id
-              aperiam animi delectus ullam numquam aut cupiditate!
+              accusantium, porro voluptatum! Eos, aperiam debitis.
             </div>
             <div className="photo">
               <img src={avatar3} alt="" />
