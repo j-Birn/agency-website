@@ -2,9 +2,10 @@
 
 .footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  flex-direction: column;
+  justify-content: space-around;
   height: 7rem;
   color: white;
   background-color: black;

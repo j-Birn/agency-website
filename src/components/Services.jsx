@@ -3,7 +3,7 @@ import { FaDesktop, FaHandsHelping, FaPalette } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <div className="container">
+    <div className="services-container">
       <div className="title-container">
         <h2 className="title">Our services</h2>
         <p className="subtitle">
